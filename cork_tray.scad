@@ -1,8 +1,8 @@
 // Frontier module tray — 2×4 BENECREAT tapered cork storage
 // Thin plate with raised rims + stiffening ribs
 
-module_w     = 209.5;
-module_d     = 99.5;
+module_w     = 215;
+module_d     = 110;
 plate_h      = 5;
 
 cork_bot_dia = 38;       // wide end (measured)
@@ -14,7 +14,7 @@ taper_per_mm = (cork_bot_dia - cork_top_dia) / cork_h;
 floor_t      = 2;        // pocket floor thickness
 rim_h        = 7;        // rim height above plate
 rim_wall     = 2;        // rim wall thickness
-clearance    = 0.5;
+clearance    = 0.1;
 
 pocket_depth = plate_h - floor_t + rim_h;
 pocket_d_bot = cork_top_dia + clearance;
