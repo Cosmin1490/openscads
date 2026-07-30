@@ -1,9 +1,9 @@
 // Frontier module tray — 2×4 BENECREAT tapered cork storage
 // Thin plate with raised rims + stiffening ribs
 
-module_w     = 215;
+module_w     = 220;
 module_d     = 110;
-plate_h      = 5;
+plate_h      = 3;
 
 cork_bot_dia = 38;       // wide end (measured)
 cork_top_dia = 33.6;     // narrow end (measured)
