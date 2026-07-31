@@ -14,7 +14,7 @@ taper_per_mm = (cork_bot_dia - cork_top_dia) / cork_h;
 floor_t      = 2;        // pocket floor thickness
 rim_h        = 7;        // rim height above plate
 rim_wall     = 2;        // rim wall thickness
-clearance    = 0.1;
+clearance    = 0;        // zero clearance — snug fit without interference
 
 pocket_depth = plate_h - floor_t + rim_h;
 pocket_d_bot = cork_top_dia + clearance;
